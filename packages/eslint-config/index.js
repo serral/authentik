@@ -78,8 +78,6 @@ export function createESLintPackageConfig({ ignorePatterns = DefaultIgnorePatter
             // are large enough to warrant several follow-up PRs.
             rules: {
                 // TODO: High priority, common and easy to fix.
-                "eqeqeq": "off",
-                // TODO: High priority, common and easy to fix.
                 "no-sparse-arrays": "off",
                 // TODO: High priority, common and easy to fix.
                 "no-lonely-if": "off",
