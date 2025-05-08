@@ -37,6 +37,8 @@
     "exports": {
         "./package.json": "./package.json",
         "./paths": "./paths.js",
+        "./elements/*": "./src/elements/*",
+        "./common/*": "./src/common/*",
         "./scripts/*": "./scripts/*.mjs"
     },
     "dependencies": {
