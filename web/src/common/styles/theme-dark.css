@@ -1,3 +1,7 @@
+.__AK_BASE_DARK_STYLES__ {
+    --__AK_BASE_DARK_STYLES__: 1;
+}
+
 /* #region Global */
 
 :root {
@@ -256,8 +260,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     color: var(--ak-dark-background-lighter);
 }
 
-.pf-c-button.pf-m-plain:hover {
-    color: var(--ak-dark-foreground);
+.pf-c-button.pf-m-plain {
+    --pf-c-button--m-plain--hover--Color: var(--ak-dark-foreground);
 }
 
 .pf-c-button.pf-m-control {
